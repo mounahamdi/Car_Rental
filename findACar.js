@@ -45,13 +45,6 @@ function each(coll, func) {
     });
     return acc;
   }
-// function getCars(){
-//         let rowValues = [localStorage.getItem('car mark'),localStorage.getItem('car city'),localStorage.getItem('car range'),localStorage.getItem('car rent price')];
-//         return map(rowValues, function (element,i) {
-//         return element;
-//         });
-// }
-// allCars.concat(getCars());
 allCars = [localStorage.getItem('car mark'),localStorage.getItem('car city'),localStorage.getItem('car range'),localStorage.getItem('car rent price')];
 console.log(allCars);
 var askedCar = Car();
