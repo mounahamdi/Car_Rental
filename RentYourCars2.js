@@ -1,9 +1,4 @@
-// Todos"
-// 1. Store all the data to the localStorage
-// 2. Give another column as an option to delete the book
-// 3. Add a scroll bar to the view
-
-// Constructor
+// Class Car
 function Car(mark,city,range,price){
     var cr={};
     cr.mark=mark;
@@ -13,8 +8,11 @@ function Car(mark,city,range,price){
     cr.getFormCar=getFormCar;
 return cr;
 }
+\\table contains all the cars
 
 var allCars=[];
+
+\\ add car to the table allCars 
 function add(car){
     allCars.push(car);
 }
